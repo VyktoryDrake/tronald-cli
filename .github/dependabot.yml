@@ -15,7 +15,8 @@ updates:
     assignees:
       - "VyktoryDrake"
     commit-message:
-      prefix: "build: npm"
+      prefix: "build"
+      include: "scope"
       
   - package-ecosystem: "github-actions"
     # Workflow files stored in the
@@ -29,5 +30,5 @@ updates:
     assignees:
       - "VyktoryDrake"
     commit-message:
-      prefix: "ci: "
+      prefix: "ci"
       include: "scope"
