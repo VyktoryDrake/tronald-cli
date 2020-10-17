@@ -1,5 +1,5 @@
 {
-  "name": "tronald-cli",
+  "name": "@vyktorydrake/tronald-cli",
   "version": "1.0.0",
   "description": "A CLI to get quotes from the infamous 45th US President.",
   "main": "tronald.js",
