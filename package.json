@@ -1,0 +1,28 @@
+{
+  "name": "tronald-cli",
+  "version": "1.0.0",
+  "description": "A CLI to get quotes from the infamous 45th US President.",
+  "main": "tronald.js",
+  "scripts": {
+    "test": "node tronald",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VyktoryDrake/tronald-cli.git"
+  },
+  "keywords": [],
+  "author": "Vyktory Drake <vyktorydrake@tuta.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VyktoryDrake/tronald-cli/issues"
+  },
+  "homepage": "https://github.com/VyktoryDrake/tronald-cli#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "standard-version": "^9.0.0"
+  }
+}
