@@ -3,6 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/8236a937af765155639f/maintainability)](https://codeclimate.com/github/VyktoryDrake/tronald-cli/maintainability)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/VyktoryDrake/tronald-cli.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/VyktoryDrake/tronald-cli/context:javascript)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/VyktoryDrake/tronald-cli.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/VyktoryDrake/tronald-cli/alerts/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FVyktoryDrake%2Ftronald-cli.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FVyktoryDrake%2Ftronald-cli?ref=badge_shield)
 
 A CLI to get quotes from the *infamous* 45th US President.
 
@@ -18,3 +19,7 @@ Thanks to the tutorial at https://www.section.io/engineering-education/create-a-
 **Go enrol to vote. Your vote affects billions. Make it count. Non-partisan info at https://vote.org.**
 
 *~~And yes, I did put this on NPM. I'm just doing it to start learning things, really.~~*
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FVyktoryDrake%2Ftronald-cli.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FVyktoryDrake%2Ftronald-cli?ref=badge_large)
