@@ -8,15 +8,15 @@
 *          Authors Names    > Vyktory Drake                                                                            *
 *          Authors Email    > vyktorydrake@tuta.io                                                                     *
 * -------------------------------------------------------------------------------------------------------------------- *
-*                                           File and License Informations                                              *
+*                                            File and License Information                                              *
 * -------------------------------------------------------------------------------------------------------------------- *
 *          File Name        > <!#FN> tronald.js </#FN>                                                                 *
 *          File Birth       > <!#FB> 2020/10/17 22:53:36.986 </#FB>                                                    *
-*          File Mod         > <!#FT> 2020/10/18 01:03:29.534 </#FT>                                                    *
+*          File Mod         > <!#FT> 2020/10/18 07:54:53.507 </#FT>                                                    *
 *          License          > <!#LT> GPL-3.0-or-later </#LT>                                                           *
 *                             <!#LU> https://spdx.org/licenses/GPL-3.0-or-later.html </#LU>                            *
 *                             <!#LD> This file may not be redistributed in whole or significant part. </#LD>           *
-*          File Version     > <!#FV> 1.0.0 </#FV>                                                                      *
+*          File Version     > <!#FV> 1.0.1 </#FV>                                                                      *
 *                                                                                                                      *
 ******************************************* VSCode Extension: Version Boss *********************************************
 </#CR>
@@ -37,7 +37,7 @@ function about() {
     //Seriously y'all need to do this...
     const rtv = chalk.whiteBright(chalk.bgBlueBright(`Seriously though, register to vote if you're in the United States. Your vote matters and decides the future of billions.`))
     const etv = chalk.whiteBright(chalk.bgRedBright(`Find more non-partisan info at https://www.vote.org/. The developer believes in co-operation from all, for the benefit of all.`))
-    //Oh boy lotsa loggin'...
+    //Oh boy lots of logging...
     console.log(`${me}`)
     console.log(`${gh}`)
     console.log(`${api}`)
@@ -69,5 +69,5 @@ function getQuote() {
 }
 //Yargs was bad so I made this instead.
 about()
-//May as well have a cool easter egg, plus the wait allows reading and some versimilitude.
+//May as well have a cool easter egg, plus the wait allows reading and some verisimilitude.
 setTimeout(getQuote, 2016)
