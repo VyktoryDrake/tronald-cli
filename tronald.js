@@ -30,7 +30,7 @@ console.clear()
 function about() {
     //About me
     const me = chalk.blueBright("This cheeky bit of fun was made by Vyktory Drake.")
-    const gh = chalk.blueBright("You can find their GItHub at https://github.com/VyktoryDrake.")
+    const gh = chalk.blueBright("You can find their Github at https://github.com/VyktoryDrake.")
     //About the APIs
     const api = chalk.redBright("Thanks to the Tronald Dump API at https://www.tronalddump.io/")
     const tut = chalk.redBright("Also thanks to the tutorial at https://www.section.io/engineering-education/create-a-nodejs-cli/ for helping me re-learn stuff.")
@@ -45,10 +45,10 @@ function about() {
     console.log(`${rtv}`)
     console.log(`${etv}`)
     //This is before we start searching.
-    console.log(chalk.whiteBright(`Trawling through Tronald's Dump...`));
+    console.log(chalk.whiteBright(`Trawling through the tweet dump...`));
 }
 
-function getDump() {
+function getQuote() {
     //Make sure people know it's not hung.
     //Axios init GET
     axios({
@@ -58,7 +58,7 @@ function getDump() {
         //Convert and display dump
         .then((res) => {
             const quote = chalk.yellow(res.data.value);
-            const tronald = chalk.green("Tronald J. Dump");
+            const tronald = chalk.cyan("Donald J. Trump (@realdonaldtrump)");
             console.log(`${quote} - ${tronald}`);
         })
         //Catch errs.
@@ -70,4 +70,4 @@ function getDump() {
 //Yargs was bad so I made this instead.
 about()
 //May as well have a cool easter egg, plus the wait allows reading and some versimilitude.
-setTimeout(getDump, 2016)
+setTimeout(getQuote, 2016)
