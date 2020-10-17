@@ -1,9 +1,9 @@
 # tronald-cli
 ![Build](https://github.com/VyktoryDrake/tronald-cli/workflows/Build/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8236a937af765155639f/maintainability)](https://codeclimate.com/github/VyktoryDrake/tronald-cli/maintainability)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/VyktoryDrake/tronald-cli.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/VyktoryDrake/tronald-cli/context:javascript)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/VyktoryDrake/tronald-cli.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/VyktoryDrake/tronald-cli/alerts/)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FVyktoryDrake%2Ftronald-cli.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FVyktoryDrake%2Ftronald-cli?ref=badge_shield)
+[![DeepSource](https://deepsource.io/gh/VyktoryDrake/tronald-cli.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/VyktoryDrake/tronald-cli/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/VyktoryDrake/tronald-cli.svg/?label=resolved+issues&show_trend=true)](https://deepsource.io/gh/VyktoryDrake/tronald-cli/?ref=repository-badge)
 
 A CLI to get quotes from the *infamous* 45th US President.
 
