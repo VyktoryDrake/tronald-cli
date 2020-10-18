@@ -102,7 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
 #FIle history folder for VS.Code
 .history/*
+
 #Speaking of, probably VS.Code itself at this point.
 .vscode/*
