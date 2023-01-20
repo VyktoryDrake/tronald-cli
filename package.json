@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/VyktoryDrake/tronald-cli#readme",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^1.2.3",
     "chalk": "^4.1.0"
   },
   "devDependencies": {
